@@ -78,13 +78,7 @@ public class RegisterServlet extends HttpServlet {
             String password = request.getParameter("password");
             
             String usertype=request.getParameter("userType");
-            System.out.println(email);
-            System.out.println(name);
-             System.out.println(address);
-              System.out.println(mob);
-               System.out.println(pincode); 
-                System.out.println(password);
-                 System.out.println(usertype);
+         
                
             UserPojo user = new UserPojo();
             user.setUsername(name);
@@ -94,8 +88,7 @@ public class RegisterServlet extends HttpServlet {
             user.setPassword(password);
             user.setPincode(pincode);
             user.setUsertype(usertype);
-             System.out.println("After set data");
-              System.out.println(user.toString());
+             
             
             UserDaoImpl userdao = new UserDaoImpl();
             String status = userdao.registerUser(user);
