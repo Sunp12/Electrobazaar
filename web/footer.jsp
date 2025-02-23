@@ -27,7 +27,7 @@
           <div class="col-md-4">
             <p><i class="fa-solid fa-phone"></i> Phone : +91 1234567890</p>
             <p>
-              <i class="fa-solid fa-envelope"></i> Email : scalive4u@gmail.com
+              <i class="fa-solid fa-envelope"></i> Email : projectsdemo25@gmail.com
             </p>
             <p><i class="fa-solid fa-signs-post"></i> Postal Code : 462020</p>
           </div>
